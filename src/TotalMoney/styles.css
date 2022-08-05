@@ -1,0 +1,57 @@
+.containerTextTotal {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerPaiTotal {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid #dcdfe1;
+  border-radius: 4px;
+  width: 19.5rem;
+  height: 3rem;
+  margin-left: 15px;
+}
+
+.containerTextTotal span {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+
+  color: #5b6166;
+}
+
+.valorTotal {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #fd377e;
+}
+.containerTextTotal h3 {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 7px;
+}
+
+@media screen and (min-width: 729px) {
+  .containerPaiTotal {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 1px solid #dcdfe1;
+    border-radius: 4px;
+    width: 19.5rem;
+    height: 4rem;
+    margin-left: 1rem;
+  }
+
+  .containerTextTotal h3 {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 15px;
+  }
+}

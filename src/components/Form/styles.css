@@ -1,0 +1,107 @@
+.formDescricao {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dcdfe1;
+  border-radius: 4px;
+  margin: 15px;
+
+  width: 21.5rem;
+  height: 16rem;
+}
+
+.spanDescricao {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #212529;
+  padding: 20px 16px 0px;
+}
+
+.spanValor {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #212529;
+  padding: 20px 16px 0px;
+}
+
+.spanExemplo {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #868e96;
+
+  padding-left: 14px;
+}
+
+.inputDescricao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 16px;
+  width: 18rem;
+  height: 50px;
+  margin: 0px 10px 0px 10px;
+  background: #e3e4e4;
+  border: 2px solid #f8f9fa;
+}
+
+.inputValor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 98px;
+  height: 45px;
+  margin: 0px 10px 0px 10px;
+  background: #e3e4e4;
+  border: 2px solid #f8f9fa;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+.selectType {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 16px;
+
+  width: 170px;
+  height: 50px;
+  margin: 0px 10px 0px 10px;
+  background: #e3e4e4;
+  border: 2px solid #f8f9fa;
+  font-size: 18px;
+  color: #5b6166;
+}
+.containerValor {
+  margin-top: 10px;
+  display: flex;
+}
+
+.buttonInserir {
+  width: 314px;
+  height: 48px;
+  margin: 15px;
+
+  font-size: 18px;
+  background: #fd377e;
+  cursor: pointer;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+  color: white;
+}
+
+@media screen and (min-width: 729px) {
+  .formDescricao {
+    height: 18rem;
+  }
+}

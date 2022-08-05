@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.classMain {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 620px) {
+  .classMain {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .classMain {
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+  }
+}
